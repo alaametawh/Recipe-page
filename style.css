@@ -109,4 +109,7 @@ li::marker {
 }
 @media (max-width:764px) {
     .container {width: 100%; margin: 0; padding: 0;}
+    .plate {width: 80%; margin: 6vw 0;}
+    .steps {width: 80%;}
+    .name {width: 80%;}
 }
