@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+html {
     font-size: 10px;
 }
 @font-face {
@@ -111,7 +113,7 @@ li::marker {
     font-size: 11px;
     text-align: center; 
     background-color: hsl(330, 100%, 98%); 
-    font-size: 1.6rem; 
+    font-size: 2rem; 
     width: 100%;
     display: flex; 
     justify-content: center; 
@@ -122,6 +124,10 @@ li::marker {
     color: hsl(228, 45%, 44%); 
     font-size: 1.6rem;
 }
+.focused {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
 
 @media (max-width:764px) {
     .container {width: 100%; margin: 0; padding: 0;}
@@ -129,4 +135,5 @@ li::marker {
     .steps {width: 80%;}
     .name {width: 80%;}
     .attribution {flex-direction: column;}
+    html {font-size: 7px;}
 }
