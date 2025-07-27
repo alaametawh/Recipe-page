@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+@font-face {
+    font-family: "main";
+    src: url(fonts/young-serif/YoungSerif-Regular.ttf);}
+@font-face {
+    font-family: "others";
+    src: url(fonts/outfit/Outfit-VariableFont_wght.ttf);}
+body {
+    width: 100%;  
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color:  #F3E5D8;
+}
+.container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 10rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 2rem;
+}
+.plate {
+    margin: 3vw 0;
+}
+.plate,.name,.steps {
+    width: 90%;
+    align-self: center;
+}
+.plate img {
+    width: 100%;
+    border-radius: 2rem;
+}
+.header {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    font-family: "main";
+}
+.paragraph, .paragraph li{
+    font-size: 2.5rem;
+    font-family: "others";
+    color: hsl(30, 10%, 34%);
+}
+ol,ul {
+    list-style-position: outside;
+    margin: 2rem 0;
+    border-bottom: 2px solid hsla(32, 10%, 34%, 0.251);
+    padding-left: 1em;
+}
+li {
+    margin: 1.5rem 0;
+    padding-left: 3rem;
+}
+li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+.main {
+    font-size: 4rem;
+    color: hsl(14, 45%, 36%);
+    font-family: "main";
+    margin: 5rem 0;
+}
+#prep {
+    background-color: hsl(330, 100%, 98%);
+    padding: 4rem;
+    margin: 4rem 0;
+    border-radius: 2rem;
+}
+#prep ul {
+    border-bottom: 0;
+}
+.prep {
+    font-size: 3.3rem;
+    font-family: "others";
+    color: hsl(332, 51%, 32%);
+}
+.nut-facts {
+    display: flex;
+    flex: 1;
+    border-bottom: 2px solid hsla(32, 10%, 34%, 0.251);
+}
+.nut-facts p {
+    width: 50%;
+    padding: 10px;
+    margin: 1rem 0;
+}
+.nut-name {
+    color: hsl(30, 10%, 34%);
+}
+.nut-value {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+.discribe {
+    margin: 3rem 0;
+    color: hsl(30, 10%, 34%);
+}
+.spaced {
+    margin-bottom: 6rem;
+}
+.nut-text {
+    margin-bottom: 4rem;
+}
+@media (max-width:764px) {
+    .container {width: 100%; margin: 0; padding: 0;}
+}
