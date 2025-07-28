@@ -131,9 +131,11 @@ li::marker {
 
 @media (max-width:764px) {
     .container {width: 100%; margin: 0; padding: 0;}
-    .plate {width: 80%; margin: 6vw 0;}
+    .plate img {border-radius: 0px;}
+    .plate {width: 100%; margin-bottom: 6vw; margin-top: 0;}
     .steps {width: 80%;}
     .name {width: 80%;}
     .attribution {flex-direction: column;}
     html {font-size: 7px;}
+    .header {font-size: 5rem;}
 }
